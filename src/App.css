@@ -1,38 +1,242 @@
-.App {
+
+
+* {
+  box-sizing: border-box;
+  }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detail{
+margin-left: 280px;
+width: 195px;
+height: 67px;
+left: 297px;
+top: 64px;
+
+font-style: bold;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 60px;
+
+color: #E64646;
+}
+.form{
+
+width: 108px;
+height: 47px;
+left: 59px;
+top: 177px;
+
+font-family: Racing Sans One;
+font-style: bold;
+font-weight: normal;
+font-size: 23px;
+line-height: 52px;
+
+color: #000000;
+}
+.btn1{
+  margin-left: 278px;
+  background-color:cyan;
+  font-style: bold;
+}
+.rectangle {
+  margin-top: 100px;
+  margin-left: 180px;
+  width: 400px;
+  height: 250px;
+  background:black;
+        
+}
+.btn2{
+  width: 80px;
+  height: 50px;
+  margin-left: 1000px;
+  background-color:cyan; 
+}
+.parallel {
+  width: 150px;
+  height: 100px;
+  transform: skew(20deg);
+  background: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+position: relative;
+text-align: center;
+color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+.img1{
+
+  margin-top: 100px;
+  margin-left: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* Bottom left text */
+.a {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -250px;
+  font-family: 'Rubik', sans-serif;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Top left text */
+.b {
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 120px;
+}
+
+/* Top right text */
+.c {
+  position: absolute;
+  margin-top: -133px;
+  margin-left: 380px;
+}
+
+/* Bottom right text */
+.d {
+  position: absolute;
+  margin-top: -103px;
+  margin-left: 360px;
+}
+
+/* Centered text */
+.e {
+  position: absolute;
+  margin-top: -73px;
+  margin-left: 360px;
+}
+.f {
+  
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 360px;
+}
+
+.aa {
+  display: table;
+  width: 100%;
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+.ab {
+  display: table;
+  width: 100%;
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+
+.ac {
+  display: table;
+  width: 100%
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+
+.ad {
+  display: table;
+  width: 100%
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+.ae {
+  display: table;
+  width: 100%
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+.af {
+  display: table;
+  width: 100%
+}
+
+label {
+  display: table-cell;
+  width: 1px;
+  white-space: nowrap;
+}
+
+span {
+  display: table-cell;
+  padding: 0 4px 0 6px;
+}
+
+input {
+  margin-left: 50px;
+  height: 15px;
+  width: 300px;
 }
